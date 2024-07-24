@@ -1,0 +1,28 @@
+.fabric-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.fabric-product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.fabric-product:hover {
+  transform: scale(1.05);
+}
+
+.fabric-image {
+  /* max-width: 100%; */
+
+  width: 255px;
+  height: 255px;
+  /* height: auto; */
+  border-radius: 10px;
+}

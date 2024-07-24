@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: normal;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  background-color: #194a7a;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.row {
+  margin-top: 80px;
+}
+
+.image {
+  width: 21rem;
+  /* transform: rotate(22deg); */
+  position: absolute;
+  z-index: 0;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.download-button:hover .fa-phone {
+  color: black;
+}
+
+.download-button .fa-solid {
+  color: white;
+  margin-right: 5px;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.feat {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.feat .fa-solid {
+  color: #476f95;
+  transition: 0.3s ease-in-out;
+}
+
+.feat .fa-solid:hover {
+  color: #194a7a;
+}
+
+#carousel {
+  background-color: brown;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  height: 70vh;
+  width: 100vw;
+}
+
+#sample {
+  margin-top: 2rem;
+  background-color: #194a7a;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+@media screen and (max-width: 990px) {
+  .feats {
+    flex-direction: column;
+  }
+
+  .image {
+    position: static;
+    width: 90%;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  .container-fluid {
+    padding: 3% 10%;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    /* scale: 0.5; */
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    /* scale: 1; */
+    transform: translateY(0px);
+  }
+}
+
+.anim {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
+}
