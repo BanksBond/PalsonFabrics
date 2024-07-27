@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PalsonFabrics/static/css/main.71d8338c.css",
+    "main.js": "/PalsonFabrics/static/js/main.38b7df12.js",
+    "index.html": "/PalsonFabrics/index.html",
+    "main.71d8338c.css.map": "/PalsonFabrics/static/css/main.71d8338c.css.map",
+    "main.38b7df12.js.map": "/PalsonFabrics/static/js/main.38b7df12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71d8338c.css",
+    "static/js/main.38b7df12.js"
+  ]
+}
