@@ -5,6 +5,10 @@
   justify-content: space-evenly;
 }
 
+#products h3 {
+  color: white;
+}
+
 .fabric-product {
   border: 1px solid #ccc;
   padding: 20px;
@@ -25,4 +29,8 @@
   height: 255px;
   /* height: auto; */
   border-radius: 10px;
+}
+
+.products {
+  background-color: #476f95;
 }

@@ -57,6 +57,12 @@ p {
   margin-right: auto;
 }
 
+footer {
+  text-align: center;
+  padding: 5rem;
+  background-color: #476f95;
+}
+
 #title {
   background-color: #194a7a;
 }
@@ -188,4 +194,52 @@ p {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
+}
+
+#products {
+  background-color: #194a7a;
+}
+
+/* Footer.css */
+
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-info {
+  margin-bottom: 20px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.footer-map iframe {
+  border: none;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-info {
+    margin-bottom: 0;
+  }
+
+  .footer-map iframe {
+    width: 500px;
+    height: 300px;
+  }
 }
