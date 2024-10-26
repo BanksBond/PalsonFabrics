@@ -100,7 +100,7 @@ function AboutUs() {
 
           <div className="relative w-full h-full max-h-[500px] overflow-hidden">
             <img
-              src="https://tonoandco.com/cdn/shop/products/17_Sea_Runners_Front_spill_02_700x.jpg?v=1538767406"
+              src="assets/img/17_Sea_Runners_Front_spill_02_800x.webp"
               alt="Fabric Image"
               className="rounded-md shadow-lg object-cover w-full h-auto sm:w-full"
               loading="lazy"
@@ -118,7 +118,7 @@ function AboutUs() {
         >
           <div className="hidden w-full h-full max-h-[500px] lg:block">
             <img
-              src="https://www.aplomoacademy.com/uploads/dwZjz8Ew/aplomo.academy_1646952059_2791158635407083927_523627026881__msi___jpg.jpg"
+              src="assets/img/aplomo.academy.jpg"
               alt="Hands Image"
               className="rounded-md shadow-lg object-cover w-full h-full"
               loading="lazy"
