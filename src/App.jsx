@@ -35,7 +35,7 @@ const App = () => {
           {/* Logo Section */}
           <div className="flex items-center space-x-2">
             <img
-              src="src\assets\logo\Palson_Fabrics_Logo-removebg.png" // Replace with your logo
+              src="assets/logo/Palson_Fabrics_Logo-removebg.png" // Replace with your logo
               alt="Palson Fabrics Logo"
               style={{
                 filter:
@@ -45,7 +45,7 @@ const App = () => {
             />
             {/* Placeholder for Logo */}
             <img
-              src="src\assets\logo\Palson_Fabrics_Name-removebg.png" // Replace with your logo
+              src="assets/logo/Palson_Fabrics_Name-removebg.png" // Replace with your logo
               alt="Palson Fabrics Logo"
               style={{
                 filter:

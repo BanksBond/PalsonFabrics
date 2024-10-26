@@ -25,19 +25,19 @@ function HeroSection() {
       </div>
       <div className="grid grid-cols-2 gap-4">
         <img
-          src="https://img.freepik.com/free-photo/fabrics-background_87358-120.jpg?t=st=1729685637~exp=1729689237~hmac=8ac4be57d271770f75478ea6e3b7f69c6af344e0ca25f9ed4ba592980f1410b5&w=1380"
+          src="assets/img/fabrics-background.jpg"
           alt="Fabric 1"
           className="w-full h-full object-cover rounded-lg"
           loading="eager"
         />
         <img
-          src="https://img.freepik.com/free-photo/close-up-smooth-red-fabric_23-2147921512.jpg?t=st=1729685450~exp=1729689050~hmac=16a7b6de82d8b553c513f983a8609f5f6fd475c79dc3002a03037ca6fe39cd03&w=740"
+          src="assets/img/close-up-smooth-red-fabric.jpg"
           alt="Fabric 2"
           loading="eager"
           className="w-full h-full row-span-2 object-cover rounded-lg"
         />
         <img
-          src="https://img.freepik.com/free-photo/colorful-knitted-fabric-art-background_58702-1814.jpg?t=st=1729685817~exp=1729689417~hmac=149dc11c5cdf5526d71117f213071fb286e71f47275c262406604967f8bf6ed5&w=1380"
+          src="assets/img/colorful-knitted-fabric-art-background.jpg"
           alt="Fabric 3"
           loading="eager"
           className="w-full h-full object-cover rounded-lg"

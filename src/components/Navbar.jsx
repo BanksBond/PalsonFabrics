@@ -22,7 +22,7 @@ function Navbar({ activeLink }) {
         {/* Logo Section */}
         <div className="flex items-center">
           <img
-            src="src\assets\logo\Palson_Fabrics_Name-removebg.png" // Replace with your logo
+            src="assets/logo/Palson_Fabrics_Name-removebg.png" // Replace with your logo
             alt="Palson Fabrics Logo"
             className="h-12 w-auto mr-3"
           />
