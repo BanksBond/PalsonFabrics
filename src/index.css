@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.marker-text {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.marker:hover + .marker-text,
+.marker-text:hover {
+  opacity: 1;
+}
