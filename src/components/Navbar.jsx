@@ -1,3 +1,138 @@
+// import { useState } from "react";
+// import { Link } from "react-router-dom";
+// import { motion } from "framer-motion";
+
+// // eslint-disable-next-line react/prop-types
+// function Navbar({ activeLink }) {
+//   const [isOpen, setIsOpen] = useState(false);
+
+//   const handleToggle = () => {
+//     setIsOpen(!isOpen);
+//   };
+
+//   return (
+//     <motion.header
+//       initial={{ opacity: 0 }}
+//       whileInView={{ opacity: 1 }}
+//       transition={{ duration: 1 }}
+//       viewport={{ once: true }}
+//       className="bg-white shadow-md"
+//     >
+//       <div className="container mx-auto flex justify-between items-center py-4 px-6">
+//         {/* Logo Section */}
+//         <div className="flex items-center">
+//           <img
+//             src="assets/logo/Palson_Fabrics_Name-removebg.png" // Replace with your logo
+//             alt="Palson Fabrics Logo"
+//             className="h-12 w-auto mr-3"
+//           />
+//         </div>
+
+//         {/* Desktop Navigation */}
+//         <nav className="hidden md:flex space-x-6">
+//           <Link
+//             to="/"
+//             className={`text-gray-700 hover:text-blue-600 ${
+//               activeLink === "home" ? "text-blue-600" : ""
+//             }`}
+//           >
+//             Home
+//           </Link>
+//           <a
+//             href="#"
+//             className={`text-gray-700 hover:text-blue-600 ${
+//               activeLink === "products" ? "text-blue-600" : ""
+//             }`}
+//           >
+//             Products
+//           </a>
+//           <Link
+//             to="/about"
+//             className={`text-gray-700 hover:text-blue-600 ${
+//               activeLink === "about" ? "text-blue-600" : ""
+//             }`}
+//           >
+//             About Us
+//           </Link>
+//           <Link
+//             to="/contact"
+//             className={`text-gray-700 hover:text-blue-600 ${
+//               activeLink === "contact" ? "text-blue-600" : ""
+//             }`}
+//           >
+//             Contact Us
+//           </Link>
+//         </nav>
+
+//         {/* Mobile Hamburger Icon */}
+//         <div className="md:hidden">
+//           <button
+//             className="text-gray-700 hover:text-blue-600 focus:outline-none"
+//             onClick={handleToggle}
+//           >
+//             <svg
+//               className="w-6 h-6"
+//               fill="none"
+//               stroke="currentColor"
+//               viewBox="0 0 24 24"
+//               xmlns="http://www.w3.org/2000/svg"
+//             >
+//               <path
+//                 strokeLinecap="round"
+//                 strokeLinejoin="round"
+//                 strokeWidth="2"
+//                 d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}
+//               />
+//             </svg>
+//           </button>
+//         </div>
+//       </div>
+
+//       {/* Mobile Dropdown Menu */}
+//       {isOpen && (
+//         <div className="md:hidden bg-white shadow-md py-4">
+//           <nav className="flex flex-col items-center space-y-4">
+//             <Link
+//               to="/"
+//               className={`text-gray-700 hover:text-blue-600 ${
+//                 activeLink === "home" ? "text-blue-600" : ""
+//               }`}
+//             >
+//               Home
+//             </Link>
+//             <a
+//               href="#"
+//               className={`text-gray-700 hover:text-blue-600 ${
+//                 activeLink === "products" ? "text-blue-600" : ""
+//               }`}
+//             >
+//               Products
+//             </a>
+//             <Link
+//               to="/about"
+//               className={`text-gray-700 hover:text-blue-600 ${
+//                 activeLink === "about" ? "text-blue-600" : ""
+//               }`}
+//             >
+//               About Us
+//             </Link>
+//             <Link
+//               to="/contact"
+//               className={`text-gray-700 hover:text-blue-600 ${
+//                 activeLink === "contact" ? "text-blue-600" : ""
+//               }`}
+//             >
+//               Contact Us
+//             </Link>
+//           </nav>
+//         </div>
+//       )}
+//     </motion.header>
+//   );
+// }
+
+// export default Navbar;
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -13,16 +148,15 @@ function Navbar({ activeLink }) {
   return (
     <motion.header
       initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
+      animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      viewport={{ once: true }}
       className="bg-white shadow-md"
     >
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo Section */}
         <div className="flex items-center">
           <img
-            src="assets/logo/Palson_Fabrics_Name-removebg.png" // Replace with your logo
+            src="assets/logo/Palson_Fabrics_Name-removebg.png"
             alt="Palson Fabrics Logo"
             className="h-12 w-auto mr-3"
           />
@@ -46,14 +180,14 @@ function Navbar({ activeLink }) {
           >
             Products
           </a>
-          <a
-            href="#"
+          <Link
+            to="/about"
             className={`text-gray-700 hover:text-blue-600 ${
               activeLink === "about" ? "text-blue-600" : ""
             }`}
           >
             About Us
-          </a>
+          </Link>
           <Link
             to="/contact"
             className={`text-gray-700 hover:text-blue-600 ${
@@ -67,58 +201,74 @@ function Navbar({ activeLink }) {
         {/* Mobile Hamburger Icon */}
         <div className="md:hidden">
           <button
-            className="text-gray-700 hover:text-blue-600 focus:outline-none"
             onClick={handleToggle}
+            className="relative flex items-center justify-center w-10 h-10 focus:outline-none"
           >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}
-              />
-            </svg>
+            {/* Top and Bottom Bars */}
+            <motion.span
+              className="block absolute h-0.5 w-6 bg-gray-700 rounded"
+              animate={isOpen ? { rotate: 45, y: 2 } : { rotate: 0, y: -4 }}
+              transition={{ duration: 0.3 }}
+            />
+            <motion.span
+              className="block absolute h-0.5 w-6 bg-gray-700 rounded"
+              animate={isOpen ? { opacity: 0 } : { opacity: 1 }}
+              transition={{ duration: 0.2 }}
+            />
+            <motion.span
+              className="block absolute h-0.5 w-6 bg-gray-700 rounded"
+              animate={isOpen ? { rotate: -45, y: -2 } : { rotate: 0, y: 4 }}
+              transition={{ duration: 0.3 }}
+            />
           </button>
         </div>
       </div>
 
       {/* Mobile Dropdown Menu */}
-      {isOpen && (
-        <div className="md:hidden bg-white shadow-md py-4">
-          <nav className="flex flex-col items-center space-y-4">
-            <a
-              href="#"
-              className={`text-gray-700 hover:text-blue-600 ${
-                activeLink === "home" ? "text-blue-600" : ""
-              }`}
-            >
-              Home
-            </a>
-            <a
-              href="#"
-              className={`text-gray-700 hover:text-blue-600 ${
-                activeLink === "products" ? "text-blue-600" : ""
-              }`}
-            >
-              Products
-            </a>
-            <a
-              href="#"
-              className={`text-gray-700 hover:text-blue-600 ${
-                activeLink === "about" ? "text-blue-600" : ""
-              }`}
-            >
-              About Us
-            </a>
-          </nav>
-        </div>
-      )}
+      <motion.div
+        initial={{ height: 0, opacity: 0 }}
+        animate={{
+          height: isOpen ? "auto" : 0,
+          opacity: isOpen ? 1 : 0,
+        }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
+        className="overflow-hidden md:hidden bg-white shadow-md"
+      >
+        <nav className="flex flex-col items-center space-y-4 py-4">
+          <Link
+            to="/"
+            className={`text-gray-700 hover:text-blue-600 ${
+              activeLink === "home" ? "text-blue-600" : ""
+            }`}
+          >
+            Home
+          </Link>
+          <a
+            href="#"
+            className={`text-gray-700 hover:text-blue-600 ${
+              activeLink === "products" ? "text-blue-600" : ""
+            }`}
+          >
+            Products
+          </a>
+          <Link
+            to="/about"
+            className={`text-gray-700 hover:text-blue-600 ${
+              activeLink === "about" ? "text-blue-600" : ""
+            }`}
+          >
+            About Us
+          </Link>
+          <Link
+            to="/contact"
+            className={`text-gray-700 hover:text-blue-600 ${
+              activeLink === "contact" ? "text-blue-600" : ""
+            }`}
+          >
+            Contact Us
+          </Link>
+        </nav>
+      </motion.div>
     </motion.header>
   );
 }

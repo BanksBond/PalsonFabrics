@@ -9,12 +9,12 @@ function LocationInfo() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="flex whitespace-nowrap gap-5 items-center mb-4"
+        className="flex sm:whitespace-nowrap gap-5 items-center mb-4"
       >
         <h2 className="text-3xl lg:text-4xl font-bold text-gray-800">
           Visit Our Location
         </h2>
-        <hr className="border-t-2 border-[#cbd0e4] my-8 w-full" />
+        <hr className="border-t-2 border-[#cbd0e4] my-8 w-full hidden sm:block" />
       </motion.div>
       <motion.p
         initial={{ opacity: 0 }}

@@ -37,9 +37,9 @@ function Footer() {
           <a href="#" className="text-gray-300 hover:text-white">
             Products
           </a>
-          <a href="#" className="text-gray-300 hover:text-white">
+          <Link to="/about" className="text-gray-300 hover:text-white">
             About Us
-          </a>
+          </Link>
           <Link to="/contact" className="text-gray-300 hover:text-white">
             Contact Us
           </Link>
