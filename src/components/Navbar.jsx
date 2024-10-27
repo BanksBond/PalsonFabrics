@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 // eslint-disable-next-line react/prop-types
@@ -30,14 +30,14 @@ function Navbar({ activeLink }) {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
-          <a
-            href="#"
+          <Link
+            to="/"
             className={`text-gray-700 hover:text-blue-600 ${
               activeLink === "home" ? "text-blue-600" : ""
             }`}
           >
             Home
-          </a>
+          </Link>
           <a
             href="#"
             className={`text-gray-700 hover:text-blue-600 ${
@@ -54,6 +54,14 @@ function Navbar({ activeLink }) {
           >
             About Us
           </a>
+          <Link
+            to="/contact"
+            className={`text-gray-700 hover:text-blue-600 ${
+              activeLink === "contact" ? "text-blue-600" : ""
+            }`}
+          >
+            Contact Us
+          </Link>
         </nav>
 
         {/* Mobile Hamburger Icon */}

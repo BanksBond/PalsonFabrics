@@ -1,38 +1,3 @@
-// function Stats() {
-//   return (
-//     <section className="bg-white py-12">
-//       <div className="container mx-auto flex flex-wrap justify-around text-center bg-gray-50 shadow-lg rounded-full px-8 py-8">
-//         <div className="w-1/2 md:w-auto py-4">
-//           <h2 className="text-3xl font-bold">
-//             25<span className="text-[#3e4d9d]">+</span>
-//           </h2>
-//           <p className="text-gray-600">Years of Experience</p>
-//         </div>
-//         <div className="w-1/2 md:w-auto py-4">
-//           <h2 className="text-3xl font-bold">
-//             3<span className="text-[#3e4d9d]">+</span>
-//           </h2>
-//           <p className="text-gray-600 ">Export Destinations</p>
-//         </div>
-//         <div className="w-1/2 md:w-auto py-4">
-//           <h2 className="text-3xl font-bold">
-//             29<span className="text-[#3e4d9d]">+</span>
-//           </h2>
-//           <p className="text-gray-600">Successful Deals</p>
-//         </div>
-//         <div className="w-1/2 md:w-auto py-4">
-//           <h2 className="text-3xl font-bold">
-//             400<span className="text-[#3e4d9d]">+</span>
-//           </h2>
-//           <p className="text-gray-600">Satisfied Clients</p>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default Stats;
-
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 

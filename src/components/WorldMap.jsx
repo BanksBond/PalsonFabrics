@@ -5,9 +5,6 @@ import {
   Marker,
 } from "react-simple-maps";
 
-// Path to your local geography JSON file
-const geoUrl = "/world-110m.json"; // Make sure this is in your public folder
-
 // Data for map markers (locations)
 const markers = [
   {

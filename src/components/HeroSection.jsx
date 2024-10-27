@@ -19,7 +19,7 @@ function HeroSection() {
           functionality, becoming timeless art. Experience craftsmanship at its
           finest.
         </p>
-        <Button>
+        <Button navTo="/contact">
           Collaborate Now <a className=" ml-2 fa-solid fa-arrow-right"></a>
         </Button>
       </div>
