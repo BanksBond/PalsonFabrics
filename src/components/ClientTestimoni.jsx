@@ -25,9 +25,10 @@ function ClientTestimoni() {
           transition={{ duration: 0.5, delay: 0.2 }} // Animation duration with delay
           viewport={{ once: true }} // Animate once when in view
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at
-          pulvinar orci. Phasellus fringilla, eros at consectetur accumsan,
-          metus eros pellentesque eros, vel placerat lorem mi ac purus.
+          We proudly serve clients from around the globe. With a commitment that
+          knows no borders, we are dedicated to delivering excellence
+          everywhere. Our diverse clientele reflects our global impact. Check
+          out our worldwide presence on the map below!
         </motion.p>
 
         <motion.div

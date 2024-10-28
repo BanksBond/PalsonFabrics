@@ -9,7 +9,7 @@ function Footer() {
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
           <img
-            src="assets/logo/Palson_Fabrics_Logo-removebg.png" // Replace with your logo
+            src="/assets/logo/Palson_Fabrics_Logo-removebg.png" // Replace with your logo
             alt="Palson Fabrics Logo"
             style={{
               filter:
@@ -19,7 +19,7 @@ function Footer() {
           />
           {/* Placeholder for Logo */}
           <img
-            src="assets/logo/Palson_Fabrics_Name-removebg.png" // Replace with your logo
+            src="/assets/logo/Palson_Fabrics_Name-removebg.png" // Replace with your logo
             alt="Palson Fabrics Logo"
             style={{
               filter:
@@ -34,9 +34,9 @@ function Footer() {
           <Link to="/" className="text-gray-300 hover:text-white">
             Home
           </Link>
-          <a href="#" className="text-gray-300 hover:text-white">
+          <Link to="/products" className="text-gray-300 hover:text-white">
             Products
-          </a>
+          </Link>
           <Link to="/about" className="text-gray-300 hover:text-white">
             About Us
           </Link>
@@ -49,8 +49,14 @@ function Footer() {
         <div className="flex space-x-4 mt-4 md:mt-0">
           <a href="#" className="fa-brands fa-instagram text-xl"></a>
           {/* Replace with actual icons */}
-          <a href="#" className="fa-brands fa-linkedin  text-xl"></a>
-          <a href="#" className="fa-solid fa-globe  text-xl"></a>
+          <a
+            href="https://www.linkedin.com/company/palson-fabrics"
+            className="fa-brands fa-linkedin  text-xl"
+          ></a>
+          <a
+            href="mailto:info@palsonfabrics.com"
+            className="fa-solid fa-globe  text-xl"
+          ></a>
           <a href="#" className="fa-brands fa-facebook  text-xl"></a>
         </div>
       </div>

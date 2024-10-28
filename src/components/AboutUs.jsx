@@ -65,7 +65,7 @@ function AboutUs() {
           </p>
 
           <div className="flex space-x-4">
-            <Button>About Us</Button>
+            <Button navTo="/about">About Us</Button>
             <ButtonOutline>Download Our Flier</ButtonOutline>
           </div>
         </motion.div>

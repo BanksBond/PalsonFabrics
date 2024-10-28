@@ -23,9 +23,9 @@ function LocationInfo() {
         viewport={{ once: true }}
         className="text-gray-600 mb-8 max-w-lg"
       >
-        Lorem ipsum dolor sit amet consectetur. Ullamcorper tortor pulvinar nunc
-        dictum ipsum. Interdum mattis mattis ut lectus nisl. Cursus tortor
-        tristique donec leo elit diam etiam auctor ac.
+        We welcome you to visit our location and experience our offerings
+        firsthand. Our team is ready to assist you and provide a personalized
+        experience.
       </motion.p>
 
       {/* Background Image with Overlayed Contact Card */}
@@ -63,8 +63,8 @@ function LocationInfo() {
               </a>
             </p>
             <div className="flex flex-col sm:flex-row sm:space-x-4 mt-2">
-              <p className="text-gray-500">Tel: +200000772205</p>
-              <p className="text-gray-500">Tel: +200000772205</p>
+              <p className="text-gray-500">Tel: +91-9312470464</p>
+              <p className="text-gray-500">Tel: +91-8299567676</p>
             </div>
           </div>
         </motion.div>

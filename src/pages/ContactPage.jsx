@@ -73,9 +73,9 @@ function HeadingContact() {
         </h1>
         <div className="md:w-[35%]">
           <p className="text-lg text-gray-600">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
-            tempora, veritatis ipsam fugiat voluptate ab rem sint? Adipisci
-            tenetur quisquam
+            Get in touch with us! We&apos;re here to answer your questions and
+            provide support. Don&apos;t hesitate to reach out via phone, email,
+            or our contact form.
           </p>
         </div>
       </div>

@@ -4,22 +4,22 @@ function FAQ() {
     {
       question: "Do you offer international shipping for textile products?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur lacus purus tincidunt mauris dolor molestie suscipit id egestas mauris justo laoreet sed quis",
+        "Yes, we offer international shipping for our textile products. Shipping costs and delivery times vary by destination, so please check our shipping policy for detailed information.",
     },
     {
-      question: "Do you offer international shipping for textile products?",
+      question: "What is the quality of your textile products?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur lacus purus tincidunt mauris dolor molestie suscipit id egestas mauris justo laoreet sed quis",
+        "Absolutely! We pride ourselves on providing high-quality textile products that meet rigorous standards. Each item undergoes thorough quality checks before shipment.",
     },
     {
-      question: "Do you offer international shipping for textile products?",
+      question: "What is your return policy?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur lacus purus tincidunt mauris dolor molestie suscipit id egestas mauris justo laoreet sed quis",
+        "We understand that sometimes things don’t work out. You can return products within 30 days of receipt for a full refund, provided they are unused and in their original packaging.",
     },
     {
-      question: "Do you offer international shipping for textile products?",
+      question: "Do you offer customization options for your products?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur lacus purus tincidunt mauris dolor molestie suscipit id egestas mauris justo laoreet sed quis",
+        "Yes, we offer customization options for many of our textile products. Please contact our customer service for specific requirements and available options.",
     },
   ];
 
@@ -35,8 +35,10 @@ function FAQ() {
           <hr className="border-t-2 border-[#cbd0e4] my-8 w-full  hidden md:block" />
         </div>
         <p className="text-gray-500 text-sm max-w-xl mx-auto">
-          Lorem ipsum dolor sit amet consectetur lacus purus tincidunt mauris
-          dolor molestie suscipit id egestas mauris justo laoreet sed quis
+          At Palson Fabrics, we value your questions and concerns. This section
+          addresses some of the most common inquiries about our products and
+          services. We aim to provide you with the clarity you need for an
+          informed experience.
         </p>
       </div>
 
@@ -55,7 +57,7 @@ function FAQ() {
           >
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center  pt-4">
               <p className="text-xl font-bold text-gray-800">{faq.question}</p>
-              <p className="text-sm text-gray-500 mt-2 sm:mt-0 sm:max-w-xs text-right">
+              <p className="text-md text-gray-500 mt-2 sm:mt-0 sm:max-w-xs text-right">
                 {faq.answer}
               </p>
             </div>

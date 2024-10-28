@@ -16,7 +16,9 @@ function HorizontalDiv({ children, button }) {
         viewport={{ once: true }}
       />
 
-      {button && <ButtonOutline>Check all products</ButtonOutline>}
+      {button && (
+        <ButtonOutline navTo="/products">Check all products</ButtonOutline>
+      )}
     </div>
   );
 }
