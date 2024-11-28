@@ -211,6 +211,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "L17v=,9r$noN^nImIns=}xI-W--X",
   },
   {
     id: 2,
@@ -348,6 +349,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "L16[8WIU-;xu~qRjM{Rj?bWBRjxu",
   },
   {
     id: 3,
@@ -575,6 +577,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "LA6]F]WByFo#%%V;oykEp0V@tSo#",
   },
   {
     id: 4,
@@ -723,6 +726,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "LCGu]Pxs_1oe~nIWDlM|t6xt9HM|",
   },
   {
     id: 5,
@@ -873,6 +877,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "LBJk4Dt6~pD%~VbID%V@M{t7IVoJ",
   },
   {
     id: 6,
@@ -1045,6 +1050,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "LAKF:6,F|{WV}GNuE|WoNuo1NufP",
   },
   {
     id: 7,
@@ -1230,6 +1236,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "L8ECtQ?bM{ay%MWBj[xt~pWBt7of",
   },
   {
     id: 8,
@@ -1434,6 +1441,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "LCIg$Q~W-p%2kCj[M{of?HWVRjs:",
   },
   {
     id: 9,
@@ -1644,6 +1652,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "L9Dna0yTWBkTIDtPRkMz??RRWCtP",
   },
   {
     id: 10,
@@ -1855,6 +1864,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "L9J?otxY~8R+IrNIxYs.xYoeE4t5",
   },
   {
     id: 11,
@@ -2062,6 +2072,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "LSJ6Js3+5p}:j[a}bHo1WXf7a|az",
   },
   {
     id: 12,
@@ -2276,6 +2287,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "LK3TX9kZf-f5jqj^f5f5kvfhfhf5",
   },
   {
     id: 13,
@@ -2487,6 +2499,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "L8Gu,l00%N~q0000RP.8%1-;xuIU",
   },
   {
     id: 14,
@@ -2697,6 +2710,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "L9Knbuxv%M-p4mj[xuof~qM{IUM{",
   },
   {
     id: 15,
@@ -2907,6 +2921,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "LFCjen?w%Nxv-=t7M{Ri%OaxRhj]",
   },
   {
     id: 16,
@@ -3118,6 +3133,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "L75kkmX9pfkYoHa#krbwkrVWi]Vr",
   },
   {
     id: 17,
@@ -3327,6 +3343,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "L55j2Dt-tlkC*JWBo}aeyXR5Vsae",
   },
   {
     id: 18,
@@ -3538,6 +3555,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "LBI0+3=K=KbH|{NubHS2$Psoa|Nu",
   },
   {
     id: 19,
@@ -3748,6 +3766,7 @@ const products = [
           "Acoustic Properties – Noise Reduction Coefficient Up to 0.9",
       },
     ],
+    blurhash: "LGLliH=goN,]$laxjuoM}JS1JOsp",
   },
   {
     id: 20,
@@ -3958,6 +3977,7 @@ const products = [
         ],
       },
     ],
+    blurhash: "LDHek1_3~pj[M{t7Rjt7%Mj[IUof",
   },
 ];
 

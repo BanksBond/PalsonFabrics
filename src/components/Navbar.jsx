@@ -20,43 +20,45 @@ function Navbar({ activeLink }) {
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img
-            src="/assets/logo/Palson_Fabrics_Name-removebg.png"
-            alt="Palson Fabrics Logo"
-            className="h-12 w-auto mr-3"
-          />
+          <Link to="/">
+            <img
+              src="/assets/logo/Palson_Fabrics_Name-removebg.png"
+              alt="Palson Fabrics Logo"
+              className="h-12 w-auto mr-3"
+            />
+          </Link>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
           <Link
             to="/"
-            className={`text-gray-700 hover:text-blue-600 ${
-              activeLink === "home" ? "text-blue-600" : ""
+            className={`text-gray-700 hover:text-[#3e4d9d] ${
+              activeLink === "home" ? "text-[#3e4d9d]" : ""
             }`}
           >
             Home
           </Link>
           <Link
             to="/products"
-            className={`text-gray-700 hover:text-blue-600 ${
-              activeLink === "products" ? "text-blue-600" : ""
+            className={`text-gray-700 hover:text-[#3e4d9d] ${
+              activeLink === "products" ? "text-[#3e4d9d]" : ""
             }`}
           >
             Products
           </Link>
           <Link
             to="/about"
-            className={`text-gray-700 hover:text-blue-600 ${
-              activeLink === "about" ? "text-blue-600" : ""
+            className={`text-gray-700 hover:text-[#3e4d9d] ${
+              activeLink === "about" ? "text-[#3e4d9d]" : ""
             }`}
           >
             About Us
           </Link>
           <Link
             to="/contact"
-            className={`text-gray-700 hover:text-blue-600 ${
-              activeLink === "contact" ? "text-blue-600" : ""
+            className={`text-gray-700 hover:text-[#3e4d9d] ${
+              activeLink === "contact" ? "text-[#3e4d9d]" : ""
             }`}
           >
             Contact Us

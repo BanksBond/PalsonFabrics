@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
+
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Blurhash } from "react-blurhash";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
@@ -26,17 +28,32 @@ const ProductsPage = ({ products }) => {
             <motion.div
               key={product.id}
               onClick={() => handleProductClick(product.id)}
-              initial={{ opacity: 0, y: 20 }} // Initial state
-              whileInView={{ opacity: 1, y: 0 }} // Animation when in view
-              transition={{ delay: index * 0.1 }} // Staggered effect based on index
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.1 }}
               viewport={{ amount: 0.1, once: true }}
               className="bg-white rounded-lg overflow-hidden shadow-lg cursor-pointer transition-transform transform hover:scale-105"
             >
-              <img
-                src={product.image}
-                alt={product.name}
-                className="w-[255px] h-[255px] object-cover"
-              />
+              <div className="relative w-[255px] h-[255px]">
+                <Blurhash
+                  hash={product.blurhash}
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                  punch={1}
+                  className="absolute inset-0 z-10"
+                />
+                <img
+                  src={product.image}
+                  alt={product.name}
+                  onLoad={(e) => {
+                    e.currentTarget.style.opacity = "1";
+                    e.currentTarget.previousElementSibling.style.opacity = "0";
+                  }}
+                  className="w-full h-full object-cover absolute inset-0 opacity-0 transition-opacity duration-300 z-20"
+                />
+              </div>
               <div className="p-4 flex justify-between">
                 <h3 className="text-lg font-semibold mb-0">{product.name}</h3>
 

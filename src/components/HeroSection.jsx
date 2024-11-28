@@ -1,5 +1,6 @@
 import Button from "./Button";
 import { motion } from "framer-motion";
+import FabricGrid from "./FabricGrid";
 
 function HeroSection() {
   return (
@@ -23,7 +24,10 @@ function HeroSection() {
           Collaborate Now <a className=" ml-2 fa-solid fa-arrow-right"></a>
         </Button>
       </div>
-      <div className="grid grid-cols-2 gap-4">
+
+      {/* instead of below div add FabricGrid component */}
+      <FabricGrid />
+      {/* <div className="grid grid-cols-2 gap-4">
         <img
           src="assets/img/fabrics-background.jpg"
           alt="Fabric 1"
@@ -42,7 +46,7 @@ function HeroSection() {
           loading="eager"
           className="w-full h-full object-cover rounded-lg"
         />
-      </div>
+      </div> */}
     </motion.section>
   );
 }
