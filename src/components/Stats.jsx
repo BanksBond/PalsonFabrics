@@ -44,9 +44,9 @@ function Stats() {
       className="bg-white py-12"
     >
       <div className="container mx-auto flex flex-wrap justify-around text-center bg-gray-50 shadow-lg rounded-full px-8 py-8">
-        <Counter end={25} label="Years of Experience" />
-        <Counter end={3} label="Export Destinations" />
-        <Counter end={29} label="Successful Deals" />
+        <Counter end={40} label="Years of Experience" />
+        <Counter end={5} label="Export Destinations" />
+        <Counter end={800} label="Successful Deals" />
         <Counter end={400} label="Satisfied Clients" />
       </div>
     </motion.section>
