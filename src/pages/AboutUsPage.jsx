@@ -7,28 +7,28 @@ import LocationInfo from "../components/LocationInfo";
 import Footer from "../components/Footer";
 const timelineData = [
   {
-    year: "2002",
+    year: "1984",
     imgSrc:
       "https://storage.googleapis.com/a1aa/image/uCufg6Ks1fopkUgZBCDL8DdfsBuVYKtMmadMqo3SVyF0T6VnA.jpg",
     alt: "Person working on a machine",
     description:
-      "In 2002, the company was founded with the mission to provide high-quality fabrics to local and international markets. Our journey began in a small facility, with a team of dedicated craftsmen focused on delivering quality and innovation.",
+      "In 1984, the company was founded with the mission to provide high-quality fabrics to local and international markets. Our journey began in a small facility, with a team of dedicated craftsmen focused on delivering quality and innovation.",
   },
   {
-    year: "2005",
+    year: "1992",
     imgSrc:
       "https://storage.googleapis.com/a1aa/image/feyfdpLhSRH3bpJWZ2ahv6mcRj6imZnFR2YejTV5QDHgn0rOB.jpg",
     alt: "Stack of colorful fabrics",
     description:
-      "By 2005, the company expanded its operations, investing in state-of-the-art machinery and eco-friendly production techniques. This year marked our first major international shipment, opening doors to a global market.",
+      "By 1992, the company expanded its operations, investing in state-of-the-art machinery and eco-friendly production techniques. This year marked our first major international shipment, opening doors to a global market.",
   },
   {
-    year: "2010",
+    year: "2005",
     imgSrc:
       "https://storage.googleapis.com/a1aa/image/MfRlrL3fOSlfKIsxdKfe7zHelzaU3E5HhEsS7er0kpd87keqTA.jpg",
     alt: "Close-up of fabric texture",
     description:
-      "2010 was a year of rapid growth. We launched our first flagship store and expanded our product range to include diverse textile offerings, catering to a broader customer base and gaining recognition as a trusted fabric supplier.",
+      "2005 was a year of rapid growth. We launched our first flagship store and expanded our product range to include diverse textile offerings, catering to a broader customer base and gaining recognition as a trusted fabric supplier.",
   },
   {
     year: "2015",
@@ -39,12 +39,12 @@ const timelineData = [
       "With a commitment to innovation, 2015 saw us implementing sustainable practices across all stages of production. This year, we became a certified green company, dedicated to reducing our carbon footprint and promoting environmental responsibility.",
   },
   {
-    year: "2018",
+    year: "2022",
     imgSrc:
       "https://storage.googleapis.com/a1aa/image/6FVCLRsDMWaEHNwVellezoM2VDdtgPQblfCE97lf2thtn0rOB.jpg",
     alt: "Rolls of different colored fabrics",
     description:
-      "In 2018, we celebrated our company’s success and growth by launching a new collection that combined traditional craftsmanship with modern design trends. Our brand reached new heights, establishing partnerships with leading fashion houses worldwide.",
+      "In 2022, we celebrated our company’s success and growth by launching a new collection that combined traditional craftsmanship with modern design trends. Our brand reached new heights, establishing partnerships with leading fashion houses worldwide.",
   },
 ];
 
