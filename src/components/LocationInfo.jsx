@@ -32,9 +32,9 @@ function LocationInfo() {
       <div className="relative ml-0 lg:ml-10">
         {/* Background Image */}
         <img
-          src="https://media.licdn.com/dms/image/v2/D4D12AQHI23wUaSq3Pg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1710949838383?e=1735776000&v=beta&t=IN3YdXOFkdevN6TlSbTlVULDCWkFz7EmDf79F1uMQMo" // Replace with actual image path
+          src="assets/img/Guar-Gum-Powder-Reduces-Syneresis.png" // Replace with actual image path
           alt="Factory Location"
-          className="w-full h-auto object-cover shadow-md "
+          className="w-[80%] h-auto object-cover shadow-md "
         />
 
         {/* Contact Card */}
