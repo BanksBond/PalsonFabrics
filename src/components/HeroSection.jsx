@@ -25,28 +25,7 @@ function HeroSection() {
         </Button>
       </div>
 
-      {/* instead of below div add FabricGrid component */}
       <FabricGrid />
-      {/* <div className="grid grid-cols-2 gap-4">
-        <img
-          src="assets/img/fabrics-background.jpg"
-          alt="Fabric 1"
-          className="w-full h-full object-cover rounded-lg"
-          loading="eager"
-        />
-        <img
-          src="assets/img/close-up-smooth-red-fabric.jpg"
-          alt="Fabric 2"
-          loading="eager"
-          className="w-full h-full row-span-2 object-cover rounded-lg"
-        />
-        <img
-          src="assets/img/colorful-knitted-fabric-art-background.jpg"
-          alt="Fabric 3"
-          loading="eager"
-          className="w-full h-full object-cover rounded-lg"
-        />
-      </div> */}
     </motion.section>
   );
 }

@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@sanity/client": "^7.8.1",
     "blurhash": "^2.0.5",
     "d3-geo": "^3.1.1",
     "emailjs-com": "^3.2.0",

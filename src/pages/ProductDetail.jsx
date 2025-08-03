@@ -219,7 +219,7 @@ const ProductDetail = ({ products }) => {
 export default ProductDetail;
 
 // eslint-disable-next-line react/prop-types
-function HeadingDetail({ children, name }) {
+export function HeadingDetail({ children, name }) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
