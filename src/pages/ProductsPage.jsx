@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
 
-import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Blurhash } from "react-blurhash";
+import { useNavigate } from "react-router-dom";
+import ButtonOutline from "../components/ButtonOutline";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
@@ -17,9 +18,13 @@ const ProductsPage = ({ products }) => {
     <>
       <Navbar />
       <HeadingProducts>
-        Discover our wide range of products designed to meet your needs. Each
-        item is crafted with care, ensuring quality and reliability for our
-        customers.
+        <p>
+          Discover our wide range of products designed to meet your needs. Each
+          item is crafted with care, ensuring quality and reliability for our
+          customers.
+        </p>
+        <br />
+        <ButtonOutline navTo="/fliers">Download Our fliers</ButtonOutline>
       </HeadingProducts>
 
       <div className="container mx-auto flex justify-between items-center py-4 px-6">

@@ -6,6 +6,8 @@ import AboutUs from "./pages/AboutUsPage";
 import ProductsPage from "./pages/ProductsPage";
 import products from "./data/products";
 import ProductDetail from "./pages/ProductDetail";
+import FliersPage from "./pages/FliersPage";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
@@ -23,6 +25,9 @@ const App = () => {
         />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/fliers" element={<FliersPage />} />
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
