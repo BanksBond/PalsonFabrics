@@ -182,7 +182,10 @@ function ImageModal({ src, alt, onClose }) {
         } /* prevent closing when clicking on controls */
       >
         {/* Zoom Controls */}
-        <div className="absolute bottom-2 right-[33%] flex gap-2 z-10">
+        <div
+          style={{ right: "calc(50% - 61px)" }}
+          className="absolute bottom-2 flex gap-2 z-10"
+        >
           <Button onClick={zoomOut} style=" rounded-full p-2 shadow">
             –
           </Button>
